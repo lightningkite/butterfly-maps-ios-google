@@ -1,6 +1,6 @@
 //
 //  MKMapView+bind.swift
-//  KhrysalisMaps
+//  ButterflyMaps
 //
 //  Created by Joseph Ivie on 10/28/19.
 //  Copyright © 2019 Lightning Kite. All rights reserved.
@@ -8,7 +8,7 @@
 
 import Foundation
 import GoogleMaps
-import Khrysalis
+import Butterfly
 
 public extension GMSMapView {
 
@@ -80,13 +80,13 @@ public extension GMSMapView {
         self.retain(item: dg, until: self.removed)
         dg.didTapAtCoordinate = { map, coord in
             suppressAnimation = true
-            position.value = coord.toKhrysalis()
+            position.value = coord.toButterfly()
             suppressAnimation = false
         }
         dg.didEndDraggingMarker = { map, marker in
             if (!suppress) {
                 suppress = true
-                position.value = marker.position.toKhrysalis()
+                position.value = marker.position.toButterfly()
                 suppress = false
             }
         }
