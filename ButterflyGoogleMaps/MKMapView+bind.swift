@@ -12,14 +12,14 @@ import Butterfly
 
 public extension GMSMapView {
 
-    func bind(dependency: ViewDependency, style: String? = nil) {
+    func bind(dependency: ViewControllerAccess, style: String? = nil) {
         if let style = style {
             self.mapStyle = try? GMSMapStyle(jsonString: style)
         }
     }
 
     func bindView(
-        dependency: ViewDependency,
+        dependency: ViewControllerAccess,
         position: ObservableProperty<GeoCoordinate?>,
         zoomLevel: Float = 15,
         animate: Bool = true,
@@ -46,7 +46,7 @@ public extension GMSMapView {
     }
     
     func bindSelect(
-        dependency: ViewDependency,
+        dependency: ViewControllerAccess,
         position: MutableObservableProperty<GeoCoordinate?>,
         zoomLevel: Float = 15,
         animate: Bool = true,

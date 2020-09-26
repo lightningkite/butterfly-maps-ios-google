@@ -26,7 +26,7 @@ public class PlacesAutocomplete{
         
     ]
     
-    public init (dependency:ViewDependency){
+    public init (dependency:ViewControllerAccess){
         
     }
 
