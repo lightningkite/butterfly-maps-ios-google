@@ -27,7 +27,7 @@ public extension GMSMapView {
     ) {
         self.bind(dependency: dependency, style: style)
         var marker: GMSMarker? = nil
-        position.subscribeBy { value in
+        position.subscribeBy(onNext:  { value in
             if let value = value {
                 let newMarker = marker ?? GMSMarker(position: value.toIos())
                 newMarker.map = self
@@ -42,7 +42,7 @@ public extension GMSMapView {
                 marker?.map = nil
                 marker = nil
             }
-        }.until(self.removed)
+        }).until(self.removed)
     }
     
     func bindSelect(
@@ -56,7 +56,7 @@ public extension GMSMapView {
         var marker: GMSMarker? = nil
         var suppress: Bool = false
         var suppressAnimation: Bool = false
-        position.subscribeBy { value in
+        position.subscribeBy(onNext:  { value in
             guard !suppress else { return }
             suppress = true
             if let value = value {
@@ -74,7 +74,7 @@ public extension GMSMapView {
                 marker = nil
             }
             suppress = false
-        }.until(self.removed)
+        }).until(self.removed)
         
         let dg = LambdaDelegate()
         self.retain(item: dg, until: self.removed)
