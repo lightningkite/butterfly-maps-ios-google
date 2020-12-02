@@ -3,5 +3,6 @@ platform :ios, '10.0'
 use_modular_headers!
 
 target 'ButterflyGoogleMaps' do
-    pod 'Butterfly', :path => '~/StudioProjects/butterfly/butterfly.podspec'
+    pod 'Butterfly', :path => '../butterfly-ios/Butterfly.podspec'
+    pod 'RxBluetoothKit'
 end
