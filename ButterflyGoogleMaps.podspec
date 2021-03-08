@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
   s.version = "0.2.0"
   s.summary = "Google Maps for Butterfly"
   s.description = "Shared code for maps using Butterfly.  This is the iOS portion."
-  s.homepage = "https://github.com/lightningkite/butterfly"
+  s.homepage = "https://github.com/lightningkite/butterfly-maps-ios-google"
 
-  s.license = "GPL"
+  s.license = "MIT"
   s.author = { "Captain" => "joseph@lightningkite.com" }
   s.platform = :ios, "10.0"
   s.source = { :git => "https://github.com/lightningkite/butterfly-maps-ios-google.git", :tag => "#{s.version}" }
@@ -16,8 +16,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.swift_version = '5.3'
   s.xcconfig = { 'SWIFT_VERSION' => '5.3' }
-  # Dependency on Butterfly not representable at the moment
-  s.dependency "Butterfly/Core"
+  s.dependency "LKButterfly/Core"
   s.dependency "GoogleMaps"
   s.dependency "GooglePlaces"
 end

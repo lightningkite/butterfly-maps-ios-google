@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Butterfly
+import LKButterfly
 import GooglePlaces
 import RxSwift
 
@@ -111,17 +111,16 @@ public class PlacesAutocomplete{
             (details ?? self.detailFields).forEach({it in
                 detailValue = detailValue | UInt(it.rawValue)
             })
-            if let field = GMSPlaceField(rawValue: detailValue){
-                self.placesClient.fetchPlace(fromPlaceID: id, placeFields: field, sessionToken: self.token, callback: { (place, error) in
-                    self.token = nil
-                    if let error = error{
-                        emitter.onError(error)
-                    }
-                    if let place = place{
-                        emitter.onSuccess(place)
-                    }
-                })
-            }
+            self.placesClient.fetchPlace(fromPlaceID: id, placeFields: GMSPlaceField(rawValue: detailValue), sessionToken: self.token, callback: { (place, error) in
+                self.token = nil
+                if let error = error{
+                    emitter.onError(error)
+                }
+                if let place = place{
+                    emitter.onSuccess(place)
+                }
+            })
+            
         })
     }
 
