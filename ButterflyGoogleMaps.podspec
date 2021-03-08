@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source_files =  "ButterflyGoogleMaps/**/*.swift" # path to your classes. You can drag them into their own folder.
 
   s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
-
+  s.static_framework = true
   s.requires_arc = true
   s.swift_version = '5.3'
   s.xcconfig = { 'SWIFT_VERSION' => '5.3' }
