@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import ButterflyGoogleMaps
+@testable import LKButterflyGoogleMaps
 
-class ButterflyMapsTests: XCTestCase {
+class LKButterflyMapsTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -2,13 +2,13 @@
 platform :ios, '11.0'
 use_modular_headers!
 
-target 'ButterflyGoogleMaps' do
+target 'LKButterflyGoogleMaps' do
     pod 'LKButterfly/Core'
     pod "GoogleMaps"
     pod "GooglePlaces"
 end
 
-target 'ButterflyGoogleMapsTests' do
+target 'LKButterflyGoogleMapsTests' do
     pod 'LKButterfly/Core'
     pod "GoogleMaps"
     pod "GooglePlaces"

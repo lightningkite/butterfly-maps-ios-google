@@ -105,23 +105,26 @@ public class PlacesAutocomplete{
     
     
     public func details(id: String, details: Array<GMSPlaceField>? = nil) -> Single<GMSPlace> {
-        return Single<GMSPlace>.create({emitter in
-            self.working = true
-            var detailValue = UInt(0)
-            (details ?? self.detailFields).forEach({it in
-                detailValue = detailValue | UInt(it.rawValue)
-            })
-            self.placesClient.fetchPlace(fromPlaceID: id, placeFields: GMSPlaceField(rawValue: detailValue), sessionToken: self.token, callback: { (place, error) in
-                self.token = nil
-                if let error = error{
-                    emitter.onError(error)
-                }
-                if let place = place{
-                    emitter.onSuccess(place)
-                }
-            })
-            
-        })
+        return Single<GMSPlace>.create(
+            { emitter in
+                self.working = true
+                var detailValue = UInt(0)
+                (details ?? self.detailFields).forEach({it in
+                    detailValue = detailValue | UInt(it.rawValue)
+                })
+                let field = GMSPlaceField(rawValue: detailValue)
+                    self.placesClient.fetchPlace(fromPlaceID: id, placeFields: field, sessionToken: self.token, callback: { (place, error) in
+                        self.token = nil
+                        if let error = error{
+                            emitter.onError(error)
+                        }
+                        if let place = place{
+                            emitter.onSuccess(place)
+                        }
+                    }
+                )
+            }
+        )
     }
 
 }

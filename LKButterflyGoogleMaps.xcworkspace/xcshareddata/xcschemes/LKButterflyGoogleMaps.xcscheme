@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5EE748562367610600EB5B6E"
-               BuildableName = "ButterflyGoogleMaps.framework"
-               BlueprintName = "ButterflyGoogleMaps"
-               ReferencedContainer = "container:ButterflyGoogleMaps.xcodeproj">
+               BuildableName = "LKButterflyGoogleMaps.framework"
+               BlueprintName = "LKButterflyGoogleMaps"
+               ReferencedContainer = "container:LKButterflyGoogleMaps.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5EE7485F2367610700EB5B6E"
-               BuildableName = "ButterflyGoogleMapsTests.xctest"
-               BlueprintName = "ButterflyGoogleMapsTests"
-               ReferencedContainer = "container:ButterflyGoogleMaps.xcodeproj">
+               BuildableName = "LKButterflyGoogleMapsTests.xctest"
+               BlueprintName = "LKButterflyGoogleMapsTests"
+               ReferencedContainer = "container:LKButterflyGoogleMaps.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5EE748562367610600EB5B6E"
-            BuildableName = "ButterflyGoogleMaps.framework"
-            BlueprintName = "ButterflyGoogleMaps"
-            ReferencedContainer = "container:ButterflyGoogleMaps.xcodeproj">
+            BuildableName = "LKButterflyGoogleMaps.framework"
+            BlueprintName = "LKButterflyGoogleMaps"
+            ReferencedContainer = "container:LKButterflyGoogleMaps.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
