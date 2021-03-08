@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/lightningkite/butterfly-maps-ios-google.git", :tag => "#{s.version}" }
   s.source_files =  "LKButterflyGoogleMaps/**/*.swift" # path to your classes. You can drag them into their own folder.
 
-  s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES", 'ONLY_ACTIVE_ARCH' => 'YES' }
+  s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES", 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.static_framework = true
   s.requires_arc = true
   s.swift_version = '5.3'
