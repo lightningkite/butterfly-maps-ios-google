@@ -111,7 +111,7 @@ public class PlacesAutocomplete{
             (details ?? self.detailFields).forEach({it in
                 detailValue = detailValue | UInt(it.rawValue)
             })
-            if let field = GMSPlaceField(rawValue: detailValue){
+            let field = GMSPlaceField(rawValue: detailValue)
                 self.placesClient.fetchPlace(fromPlaceID: id, placeFields: field, sessionToken: self.token, callback: { (place, error) in
                     self.token = nil
                     if let error = error{
@@ -121,7 +121,6 @@ public class PlacesAutocomplete{
                         emitter.onSuccess(place)
                     }
                 })
-            }
         })
     }
 
