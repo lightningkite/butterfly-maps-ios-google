@@ -1,8 +1,15 @@
 
-platform :ios, '10.0'
+platform :ios, '11.0'
 use_modular_headers!
 
-target 'ButterflyGoogleMaps' do
-    pod 'Butterfly', :path => '../butterfly-ios/Butterfly.podspec'
-    pod 'RxBluetoothKit'
+target 'LKButterflyGoogleMaps' do
+    pod 'LKButterfly/Core'
+    pod "GoogleMaps"
+    pod "GooglePlaces"
+end
+
+target 'LKButterflyGoogleMapsTests' do
+    pod 'LKButterfly/Core'
+    pod "GoogleMaps"
+    pod "GooglePlaces"
 end

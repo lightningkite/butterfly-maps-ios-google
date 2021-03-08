@@ -8,7 +8,7 @@
 
 import Foundation
 import GoogleMaps
-import Butterfly
+import LKButterfly
 
 public extension GMSMapView {
 
