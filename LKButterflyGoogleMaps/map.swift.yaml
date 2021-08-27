@@ -56,23 +56,6 @@
   type: get
   template: ~this~.getMinZoom()
 
-# LatLng
-- id: com.google.android.gms.maps.model.LatLng
-  type: type
-  template:
-    pattern: LatLng
-    imports:
-      LatLng: leaflet
-
-# CameraUpdate
-- id: com.google.android.gms.maps.CameraUpdate
-  type: type
-  template:
-    pattern: [LatLngExpression, number]
-    imports:
-      LatLngExpression: leaflet
-      ZoomPanOptions: leaflet
-
 # moveCamera
 - id: com.google.android.gms.maps.GoogleMap.moveCamera
   type: call
@@ -92,37 +75,6 @@
 # setMyLocationEnabled
 # getProjection
 
-# setOnCameraMoveStartedListener
-- id: com.google.android.gms.maps.GoogleMap.setOnCameraMoveStartedListener
-  type: call
-  template:
-    pattern: '~this~.on("movestart", (_ev) => { ~L0~ })'
-    lambdaTransforms:
-      0: ["0"]
-# setOnCameraMoveListener
-- id: com.google.android.gms.maps.GoogleMap.setOnCameraMoveListener
-  type: call
-  template:
-    pattern: '~this~.on("move", (_ev) => { ~L0~ })'
-# setOnCameraIdleListener
-- id: com.google.android.gms.maps.GoogleMap.setOnCameraIdleListener
-  type: call
-  template:
-    pattern: '~this~.on("moveend", (_ev) => { ~L0~ })'
-# setOnMapClickListener
-- id: com.google.android.gms.maps.GoogleMap.setOnMapClickListener
-  type: call
-  template:
-    pattern: '~this~.on("click", (_ev) => { ~L0~ })'
-    lambdaTransforms:
-      0: ["_ev.latlng"]
-# setOnMapLongClickListener
-- id: com.google.android.gms.maps.GoogleMap.setOnMapLongClickListener
-  type: call
-  template:
-    pattern: '~this~.on("contextmenu", (_ev) => { ~L0~ })'
-    lambdaTransforms:
-      0: ["_ev.latlng"]
 
 # Places AutoComplete
 - id: com.google.android.libraries.places.api.model.Place

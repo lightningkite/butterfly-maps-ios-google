@@ -3,17 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F3FD26091CD1FA3C4F670A6 /* libPods-ButterflyGoogleMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 795832196E69A9DA9370127E /* libPods-ButterflyGoogleMaps.a */; };
-		23CFB4A125F698A2001BAE75 /* MKMapView+bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CFB49825F698A2001BAE75 /* MKMapView+bind.swift */; };
-		23CFB4A225F698A2001BAE75 /* PlacesAutocomplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CFB49925F698A2001BAE75 /* PlacesAutocomplete.swift */; };
-		23CFB4A525F698A2001BAE75 /* LKButterflyMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 23CFB49C25F698A2001BAE75 /* LKButterflyMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23CFB4F425F69D93001BAE75 /* ButterflyMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CFB4D725F69C03001BAE75 /* ButterflyMapsTests.swift */; };
-		5EE748612367610700EB5B6E /* LKButterflyGoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE748572367610600EB5B6E /* LKButterflyGoogleMaps.framework */; };
-		6D98A85045B8D1845768E966 /* libPods-ButterflyGoogleMapsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A1D5FAE2EB39BBA753EE5A /* libPods-ButterflyGoogleMapsTests.a */; };
+		5EE748612367610700EB5B6E /* LKButterflyMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE748572367610600EB5B6E /* LKButterflyMaps.framework */; };
+		5EE748662367610700EB5B6E /* ButterflyMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE748652367610700EB5B6E /* ButterflyMapsTests.swift */; };
+		5EE748682367610700EB5B6E /* LKButterflyMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE7485A2367610600EB5B6E /* LKButterflyMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EE7499923677C4900EB5B6E /* MKMapView+bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE7499823677C4900EB5B6E /* MKMapView+bind.swift */; };
+		9B6DC8BBFB2C43B8FE38D422 /* libPods-LKButterflyMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3236833AE852CE53883FA061 /* libPods-LKButterflyMaps.a */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,26 +20,21 @@
 			containerPortal = 5EE7484E2367610600EB5B6E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5EE748562367610600EB5B6E;
-			remoteInfo = ButterflyMaps;
+			remoteInfo = LKButterflyMaps;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23CFB49825F698A2001BAE75 /* MKMapView+bind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapView+bind.swift"; sourceTree = "<group>"; };
-		23CFB49925F698A2001BAE75 /* PlacesAutocomplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesAutocomplete.swift; sourceTree = "<group>"; };
-		23CFB49C25F698A2001BAE75 /* LKButterflyMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKButterflyMaps.h; sourceTree = "<group>"; };
-		23CFB49D25F698A2001BAE75 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23CFB4D525F69C03001BAE75 /* LKButterflyGoogleMapsTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LKButterflyGoogleMapsTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		23CFB4D625F69C03001BAE75 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23CFB4D725F69C03001BAE75 /* ButterflyMapsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButterflyMapsTests.swift; sourceTree = "<group>"; };
-		32FB97B2AB657487D80DFC56 /* Pods-ButterflyGoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButterflyGoogleMaps.debug.xcconfig"; path = "Target Support Files/Pods-ButterflyGoogleMaps/Pods-ButterflyGoogleMaps.debug.xcconfig"; sourceTree = "<group>"; };
-		5E65392E6035DF1EE546179B /* Pods-ButterflyGoogleMapsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButterflyGoogleMapsTests.debug.xcconfig"; path = "Target Support Files/Pods-ButterflyGoogleMapsTests/Pods-ButterflyGoogleMapsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5EE748572367610600EB5B6E /* LKButterflyGoogleMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LKButterflyGoogleMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EE748602367610700EB5B6E /* LKButterflyGoogleMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKButterflyGoogleMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		795832196E69A9DA9370127E /* libPods-ButterflyGoogleMaps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ButterflyGoogleMaps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D64FC3877E42F2E1150F7C3 /* Pods-ButterflyGoogleMapsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButterflyGoogleMapsTests.release.xcconfig"; path = "Target Support Files/Pods-ButterflyGoogleMapsTests/Pods-ButterflyGoogleMapsTests.release.xcconfig"; sourceTree = "<group>"; };
-		C9A1D5FAE2EB39BBA753EE5A /* libPods-ButterflyGoogleMapsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ButterflyGoogleMapsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E49F0C443A35DB8607DB2AE9 /* Pods-ButterflyGoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButterflyGoogleMaps.release.xcconfig"; path = "Target Support Files/Pods-ButterflyGoogleMaps/Pods-ButterflyGoogleMaps.release.xcconfig"; sourceTree = "<group>"; };
+		3049F7CEE9926210ED3BD051 /* Pods-LKButterflyMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKButterflyMaps.release.xcconfig"; path = "Target Support Files/Pods-LKButterflyMaps/Pods-LKButterflyMaps.release.xcconfig"; sourceTree = "<group>"; };
+		3236833AE852CE53883FA061 /* libPods-LKButterflyMaps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LKButterflyMaps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE748572367610600EB5B6E /* LKButterflyMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LKButterflyMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE7485A2367610600EB5B6E /* LKButterflyMaps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKButterflyMaps.h; sourceTree = "<group>"; };
+		5EE7485B2367610600EB5B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EE748602367610700EB5B6E /* ButterflyMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButterflyMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE748652367610700EB5B6E /* ButterflyMapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterflyMapsTests.swift; sourceTree = "<group>"; };
+		5EE748672367610700EB5B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EE7499823677C4900EB5B6E /* MKMapView+bind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKMapView+bind.swift"; sourceTree = "<group>"; };
+		7AA8C5E8101C5C8C8F8DCE22 /* Pods-LKButterflyMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKButterflyMaps.debug.xcconfig"; path = "Target Support Files/Pods-LKButterflyMaps/Pods-LKButterflyMaps.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F3FD26091CD1FA3C4F670A6 /* libPods-ButterflyGoogleMaps.a in Frameworks */,
+				9B6DC8BBFB2C43B8FE38D422 /* libPods-LKButterflyMaps.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,71 +50,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EE748612367610700EB5B6E /* LKButterflyGoogleMaps.framework in Frameworks */,
-				6D98A85045B8D1845768E966 /* libPods-ButterflyGoogleMapsTests.a in Frameworks */,
+				5EE748612367610700EB5B6E /* LKButterflyMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23CFB49425F698A2001BAE75 /* LKButterflyGoogleMapsTests */ = {
-			isa = PBXGroup;
-			children = (
-				23CFB4D525F69C03001BAE75 /* LKButterflyGoogleMapsTests-Bridging-Header.h */,
-				23CFB4D725F69C03001BAE75 /* ButterflyMapsTests.swift */,
-				23CFB4D625F69C03001BAE75 /* Info.plist */,
-			);
-			path = LKButterflyGoogleMapsTests;
-			sourceTree = "<group>";
-		};
-		23CFB49725F698A2001BAE75 /* LKButterflyGoogleMaps */ = {
-			isa = PBXGroup;
-			children = (
-				23CFB49825F698A2001BAE75 /* MKMapView+bind.swift */,
-				23CFB49925F698A2001BAE75 /* PlacesAutocomplete.swift */,
-				23CFB49C25F698A2001BAE75 /* LKButterflyMaps.h */,
-				23CFB49D25F698A2001BAE75 /* Info.plist */,
-			);
-			path = LKButterflyGoogleMaps;
-			sourceTree = "<group>";
-		};
-		2AC40759760470954755E7CD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				795832196E69A9DA9370127E /* libPods-ButterflyGoogleMaps.a */,
-				C9A1D5FAE2EB39BBA753EE5A /* libPods-ButterflyGoogleMapsTests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		5EE7484D2367610600EB5B6E = {
 			isa = PBXGroup;
 			children = (
-				23CFB49725F698A2001BAE75 /* LKButterflyGoogleMaps */,
-				23CFB49425F698A2001BAE75 /* LKButterflyGoogleMapsTests */,
+				5EE748592367610600EB5B6E /* LKButterflyMaps */,
+				5EE748642367610700EB5B6E /* ButterflyMapsTests */,
 				5EE748582367610600EB5B6E /* Products */,
 				9DD5E63BF0D96F758A1C45D7 /* Pods */,
-				2AC40759760470954755E7CD /* Frameworks */,
+				62681008310EE60268FE6889 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5EE748582367610600EB5B6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EE748572367610600EB5B6E /* LKButterflyGoogleMaps.framework */,
-				5EE748602367610700EB5B6E /* LKButterflyGoogleMapsTests.xctest */,
+				5EE748572367610600EB5B6E /* LKButterflyMaps.framework */,
+				5EE748602367610700EB5B6E /* ButterflyMapsTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5EE748592367610600EB5B6E /* LKButterflyMaps */ = {
+			isa = PBXGroup;
+			children = (
+				5EE7485A2367610600EB5B6E /* LKButterflyMaps.h */,
+				5EE7485B2367610600EB5B6E /* Info.plist */,
+				5EE7499823677C4900EB5B6E /* MKMapView+bind.swift */,
+			);
+			path = LKButterflyMaps;
+			sourceTree = "<group>";
+		};
+		5EE748642367610700EB5B6E /* ButterflyMapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EE748652367610700EB5B6E /* ButterflyMapsTests.swift */,
+				5EE748672367610700EB5B6E /* Info.plist */,
+			);
+			path = ButterflyMapsTests;
+			sourceTree = "<group>";
+		};
+		62681008310EE60268FE6889 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3236833AE852CE53883FA061 /* libPods-LKButterflyMaps.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9DD5E63BF0D96F758A1C45D7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				32FB97B2AB657487D80DFC56 /* Pods-ButterflyGoogleMaps.debug.xcconfig */,
-				E49F0C443A35DB8607DB2AE9 /* Pods-ButterflyGoogleMaps.release.xcconfig */,
-				5E65392E6035DF1EE546179B /* Pods-ButterflyGoogleMapsTests.debug.xcconfig */,
-				7D64FC3877E42F2E1150F7C3 /* Pods-ButterflyGoogleMapsTests.release.xcconfig */,
+				7AA8C5E8101C5C8C8F8DCE22 /* Pods-LKButterflyMaps.debug.xcconfig */,
+				3049F7CEE9926210ED3BD051 /* Pods-LKButterflyMaps.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -133,49 +120,49 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23CFB4A525F698A2001BAE75 /* LKButterflyMaps.h in Headers */,
+				5EE748682367610700EB5B6E /* LKButterflyMaps.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5EE748562367610600EB5B6E /* LKButterflyGoogleMaps */ = {
+		5EE748562367610600EB5B6E /* LKButterflyMaps */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EE7486B2367610700EB5B6E /* Build configuration list for PBXNativeTarget "LKButterflyGoogleMaps" */;
+			buildConfigurationList = 5EE7486B2367610700EB5B6E /* Build configuration list for PBXNativeTarget "LKButterflyMaps" */;
 			buildPhases = (
-				5C122BF22DB6D19504C62D59 /* [CP] Check Pods Manifest.lock */,
+				CE9BB121C9AC7DF1704FC3C1 /* [CP] Check Pods Manifest.lock */,
 				5EE748522367610600EB5B6E /* Headers */,
 				5EE748532367610600EB5B6E /* Sources */,
 				5EE748542367610600EB5B6E /* Frameworks */,
-				19F7F69BA1D1C24F8B035E4D /* [CP] Copy Pods Resources */,
+				5EE748552367610600EB5B6E /* Resources */,
+				D14E16CFE88DCBFA1F7E36DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LKButterflyGoogleMaps;
-			productName = ButterflyMaps;
-			productReference = 5EE748572367610600EB5B6E /* LKButterflyGoogleMaps.framework */;
+			name = LKButterflyMaps;
+			productName = LKButterflyMaps;
+			productReference = 5EE748572367610600EB5B6E /* LKButterflyMaps.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5EE7485F2367610700EB5B6E /* LKButterflyGoogleMapsTests */ = {
+		5EE7485F2367610700EB5B6E /* ButterflyMapsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EE7486E2367610700EB5B6E /* Build configuration list for PBXNativeTarget "LKButterflyGoogleMapsTests" */;
+			buildConfigurationList = 5EE7486E2367610700EB5B6E /* Build configuration list for PBXNativeTarget "ButterflyMapsTests" */;
 			buildPhases = (
-				88A103A4280BB501C9CE8B02 /* [CP] Check Pods Manifest.lock */,
 				5EE7485C2367610700EB5B6E /* Sources */,
 				5EE7485D2367610700EB5B6E /* Frameworks */,
-				F5083084689AF4A82EBFB22A /* [CP] Copy Pods Resources */,
+				5EE7485E2367610700EB5B6E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				5EE748632367610700EB5B6E /* PBXTargetDependency */,
 			);
-			name = LKButterflyGoogleMapsTests;
+			name = ButterflyMapsTests;
 			productName = ButterflyMapsTests;
-			productReference = 5EE748602367610700EB5B6E /* LKButterflyGoogleMapsTests.xctest */;
+			productReference = 5EE748602367610700EB5B6E /* ButterflyMapsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -194,11 +181,10 @@
 					};
 					5EE7485F2367610700EB5B6E = {
 						CreatedOnToolsVersion = 11.0;
-						LastSwiftMigration = 1240;
 					};
 				};
 			};
-			buildConfigurationList = 5EE748512367610600EB5B6E /* Build configuration list for PBXProject "LKButterflyGoogleMaps" */;
+			buildConfigurationList = 5EE748512367610600EB5B6E /* Build configuration list for PBXProject "LKButterflyMaps" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -211,31 +197,31 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5EE748562367610600EB5B6E /* LKButterflyGoogleMaps */,
-				5EE7485F2367610700EB5B6E /* LKButterflyGoogleMapsTests */,
+				5EE748562367610600EB5B6E /* LKButterflyMaps */,
+				5EE7485F2367610700EB5B6E /* ButterflyMapsTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		5EE748552367610600EB5B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE7485E2367610700EB5B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXShellScriptBuildPhase section */
-		19F7F69BA1D1C24F8B035E4D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ButterflyGoogleMaps/Pods-ButterflyGoogleMaps-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ButterflyGoogleMaps/Pods-ButterflyGoogleMaps-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ButterflyGoogleMaps/Pods-ButterflyGoogleMaps-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5C122BF22DB6D19504C62D59 /* [CP] Check Pods Manifest.lock */ = {
+		CE9BB121C9AC7DF1704FC3C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -250,50 +236,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ButterflyGoogleMaps-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LKButterflyMaps-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		88A103A4280BB501C9CE8B02 /* [CP] Check Pods Manifest.lock */ = {
+		D14E16CFE88DCBFA1F7E36DB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ButterflyGoogleMapsTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F5083084689AF4A82EBFB22A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ButterflyGoogleMapsTests/Pods-ButterflyGoogleMapsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LKButterflyMaps/Pods-LKButterflyMaps-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ButterflyGoogleMapsTests/Pods-ButterflyGoogleMapsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LKButterflyMaps/Pods-LKButterflyMaps-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ButterflyGoogleMapsTests/Pods-ButterflyGoogleMapsTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LKButterflyMaps/Pods-LKButterflyMaps-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -303,8 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23CFB4A125F698A2001BAE75 /* MKMapView+bind.swift in Sources */,
-				23CFB4A225F698A2001BAE75 /* PlacesAutocomplete.swift in Sources */,
+				5EE7499923677C4900EB5B6E /* MKMapView+bind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23CFB4F425F69D93001BAE75 /* ButterflyMapsTests.swift in Sources */,
+				5EE748662367610700EB5B6E /* ButterflyMapsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +284,7 @@
 /* Begin PBXTargetDependency section */
 		5EE748632367610700EB5B6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5EE748562367610600EB5B6E /* LKButterflyGoogleMaps */;
+			target = 5EE748562367610600EB5B6E /* LKButterflyMaps */;
 			targetProxy = 5EE748622367610700EB5B6E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -449,7 +412,7 @@
 		};
 		5EE7486C2367610700EB5B6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32FB97B2AB657487D80DFC56 /* Pods-ButterflyGoogleMaps.debug.xcconfig */;
+			baseConfigurationReference = 7AA8C5E8101C5C8C8F8DCE22 /* Pods-LKButterflyMaps.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,8 +421,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EXCLUDED_ARCHS = "";
-				INFOPLIST_FILE = "$(SRCROOT)/LKButterflyGoogleMaps/Info.plist";
+				INFOPLIST_FILE = LKButterflyMaps/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,7 +429,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lightningkite.LKButterflyGoogleMaps;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightningkite.LKButterflyMaps;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -478,7 +440,7 @@
 		};
 		5EE7486D2367610700EB5B6E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E49F0C443A35DB8607DB2AE9 /* Pods-ButterflyGoogleMaps.release.xcconfig */;
+			baseConfigurationReference = 3049F7CEE9926210ED3BD051 /* Pods-LKButterflyMaps.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -487,8 +449,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EXCLUDED_ARCHS = "";
-				INFOPLIST_FILE = "$(SRCROOT)/LKButterflyGoogleMaps/Info.plist";
+				INFOPLIST_FILE = LKButterflyMaps/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -496,8 +457,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lightningkite.LKButterflyGoogleMaps;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightningkite.LKButterflyMaps;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -507,23 +467,18 @@
 		};
 		5EE7486F2367610700EB5B6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E65392E6035DF1EE546179B /* Pods-ButterflyGoogleMapsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EF4N5K3F2Q;
-				EXCLUDED_ARCHS = "";
-				INFOPLIST_FILE = LKButterflyGoogleMapsTests/Info.plist;
+				INFOPLIST_FILE = ButterflyMapsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lightningkite.LKButterflyGoogleMapsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightningkite.ButterflyMapsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "LKButterflyGoogleMapsTests/LKButterflyGoogleMapsTests-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -531,23 +486,18 @@
 		};
 		5EE748702367610700EB5B6E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D64FC3877E42F2E1150F7C3 /* Pods-ButterflyGoogleMapsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EF4N5K3F2Q;
-				EXCLUDED_ARCHS = "";
-				INFOPLIST_FILE = LKButterflyGoogleMapsTests/Info.plist;
+				INFOPLIST_FILE = ButterflyMapsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lightningkite.LKButterflyGoogleMapsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightningkite.ButterflyMapsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "LKButterflyGoogleMapsTests/LKButterflyGoogleMapsTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -556,7 +506,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5EE748512367610600EB5B6E /* Build configuration list for PBXProject "LKButterflyGoogleMaps" */ = {
+		5EE748512367610600EB5B6E /* Build configuration list for PBXProject "LKButterflyMaps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EE748692367610700EB5B6E /* Debug */,
@@ -565,7 +515,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EE7486B2367610700EB5B6E /* Build configuration list for PBXNativeTarget "LKButterflyGoogleMaps" */ = {
+		5EE7486B2367610700EB5B6E /* Build configuration list for PBXNativeTarget "LKButterflyMaps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EE7486C2367610700EB5B6E /* Debug */,
@@ -574,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EE7486E2367610700EB5B6E /* Build configuration list for PBXNativeTarget "LKButterflyGoogleMapsTests" */ = {
+		5EE7486E2367610700EB5B6E /* Build configuration list for PBXNativeTarget "ButterflyMapsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EE7486F2367610700EB5B6E /* Debug */,

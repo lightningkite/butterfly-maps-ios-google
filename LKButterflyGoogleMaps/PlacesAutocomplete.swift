@@ -1,6 +1,6 @@
 //
 //  PlacesAutoComplete.swift
-//  ButterflyGoogleMaps
+//  LKButterflyGoogleMaps
 //
 //  Created by Brady Svedin on 8/7/20.
 //  Copyright © 2019 Lightning Kite. All rights reserved.
